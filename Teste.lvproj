@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Read UDP.vi" Type="VI" URL="../../Sla/Utilities/Read UDP.vi"/>
+		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="UDP Data Receiver.lvlib" Type="Library" URL="../UDP Data Receiver/UDP Data Receiver.lvlib"/>
 		<Item Name="UDP Input.ctl" Type="VI" URL="../UDP Input.ctl"/>
 		<Item Name="UDP Reader.lvlib" Type="Library" URL="../UDP Reader/UDP Reader.lvlib"/>
