@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="22308000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,13 +12,20 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+		<Item Name="Actors" Type="Folder">
+			<Item Name="UDP Reader.lvlib" Type="Library" URL="../UDP Reader/UDP Reader.lvlib"/>
+			<Item Name="Vision Receiver.lvlib" Type="Library" URL="../Vision Receiver/Vision Receiver.lvlib"/>
+			<Item Name="Phoenix.lvlib" Type="Library" URL="../Phoenix/Phoenix.lvlib"/>
+		</Item>
+		<Item Name="Interfaces" Type="Folder">
+			<Item Name="UDP Data Receiver.lvlib" Type="Library" URL="../UDP Data Receiver/UDP Data Receiver.lvlib"/>
+		</Item>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="UDP Input.ctl" Type="VI" URL="../UDP Input.ctl"/>
+		</Item>
+		<Item Name="Vision Launcher.vi" Type="VI" URL="../Vision Launcher.vi"/>
 		<Item Name="Read UDP.vi" Type="VI" URL="../../Sla/Utilities/Read UDP.vi"/>
-		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
-		<Item Name="UDP Data Receiver.lvlib" Type="Library" URL="../UDP Data Receiver/UDP Data Receiver.lvlib"/>
-		<Item Name="UDP Input.ctl" Type="VI" URL="../UDP Input.ctl"/>
-		<Item Name="UDP Reader.lvlib" Type="Library" URL="../UDP Reader/UDP Reader.lvlib"/>
-		<Item Name="Vision Receiver.lvlib" Type="Library" URL="../Vision Receiver/Vision Receiver.lvlib"/>
+		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
