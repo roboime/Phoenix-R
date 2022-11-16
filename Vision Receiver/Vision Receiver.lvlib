@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Request Msg.lvclass" Type="LVClass" URL="../Vision Receiver Messages/Request Msg/Request Msg.lvclass"/>
+		<Item Name="Stop Vision Msg.lvclass" Type="LVClass" URL="../Vision Receiver Messages/Stop Vision Msg/Stop Vision Msg.lvclass"/>
 	</Item>
 	<Item Name="Vision Receiver.lvclass" Type="LVClass" URL="../Vision Receiver/Vision Receiver.lvclass"/>
 </Library>
