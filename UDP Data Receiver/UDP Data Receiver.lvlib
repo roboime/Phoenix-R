@@ -6,6 +6,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="RX Msg.lvclass" Type="LVClass" URL="../UDP Data Receiver Messages/RX Msg/RX Msg.lvclass"/>
+		<Item Name="Start Receiving Msg.lvclass" Type="LVClass" URL="../UDP Data Receiver Messages/Start Receiving Msg/Start Receiving Msg.lvclass"/>
+		<Item Name="Stop Receiving Msg.lvclass" Type="LVClass" URL="../UDP Data Receiver Messages/Stop Receiving Msg/Stop Receiving Msg.lvclass"/>
 	</Item>
 	<Item Name="UDP Data Receiver.lvclass" Type="LVClass" URL="../UDP Data Receiver/UDP Data Receiver.lvclass"/>
 </Library>

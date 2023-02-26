@@ -4,9 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Request Msg.lvclass" Type="LVClass" URL="../Vision Receiver Messages/Request Msg/Request Msg.lvclass"/>
-		<Item Name="Stop Vision Msg.lvclass" Type="LVClass" URL="../Vision Receiver Messages/Stop Vision Msg/Stop Vision Msg.lvclass"/>
-	</Item>
+	<Item Name="Messages for this Actor" Type="Folder"/>
 	<Item Name="Vision Receiver.lvclass" Type="LVClass" URL="../Vision Receiver/Vision Receiver.lvclass"/>
 </Library>

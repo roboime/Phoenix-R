@@ -6,9 +6,12 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Feedback Msg.lvclass" Type="LVClass" URL="../UDP Reader Messages/Feedback Msg/Feedback Msg.lvclass"/>
+		<Item Name="Halt Msg.lvclass" Type="LVClass" URL="../UDP Reader Messages/Halt Msg/Halt Msg.lvclass"/>
 		<Item Name="Read Msg.lvclass" Type="LVClass" URL="../UDP Reader Messages/Read Msg/Read Msg.lvclass"/>
 		<Item Name="Reconnect Msg.lvclass" Type="LVClass" URL="../UDP Reader Messages/Reconnect Msg/Reconnect Msg.lvclass"/>
 		<Item Name="Request Msg.lvclass" Type="LVClass" URL="../UDP Reader Messages/Request Msg/Request Msg.lvclass"/>
+		<Item Name="Start TDSM Msg.lvclass" Type="LVClass" URL="../UDP Reader Messages/Start TDSM Msg/Start TDSM Msg.lvclass"/>
+		<Item Name="Stop TDSM Msg.lvclass" Type="LVClass" URL="../UDP Reader Messages/Stop TDSM Msg/Stop TDSM Msg.lvclass"/>
 	</Item>
 	<Item Name="UDP Reader.lvclass" Type="LVClass" URL="../UDP Reader/UDP Reader.lvclass"/>
 </Library>
