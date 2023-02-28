@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Update Drawing Msg.lvclass" Type="LVClass" URL="../Phoenix Messages/Update Drawing Msg/Update Drawing Msg.lvclass"/>
 		<Item Name="Vision RX Msg.lvclass" Type="LVClass" URL="../Phoenix Messages/Vision RX Msg/Vision RX Msg.lvclass"/>
 	</Item>
 	<Item Name="Phoenix.lvclass" Type="LVClass" URL="../Phoenix/Phoenix.lvclass"/>

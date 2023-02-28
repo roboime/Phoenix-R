@@ -4,6 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Update Vision Data_Msg.lvclass" Type="LVClass" URL="../Messages/Update Vision Data_Msg/Update Vision Data_Msg.lvclass"/>
+		<Item Name="Update Drawing Msg.lvclass" Type="LVClass" URL="../Vision Messages/Update Drawing Msg/Update Drawing Msg.lvclass"/>
+	</Item>
 	<Item Name="Vision.lvclass" Type="LVClass" URL="../Vision/Vision.lvclass"/>
+	<Item Name="Field Drawer.lvlib" Type="Library" URL="../../Field Drawer/Field Drawer.lvlib"/>
+	<Item Name="Vision Receiver.lvlib" Type="Library" URL="../../Vision Receiver/Vision Receiver.lvlib"/>
 </Library>
